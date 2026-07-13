@@ -1,0 +1,14 @@
+name = "cf-pagerule-migrator"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "QUOTA"
+id = "d374b1dc188043248f9d06bde8da737b"
+
+[[kv_namespaces]]
+binding = "ANALYTICS"
+id = "9c2c0ac044e2465a8e5c23a23f91a1b6"
